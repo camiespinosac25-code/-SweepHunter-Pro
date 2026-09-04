@@ -3,7 +3,7 @@ import asyncio, re
 from urllib.parse import urljoin, urlparse
 import httpx
 from bs4 import BeautifulSoup
-from .config import TRUSTED_DOMAINS, KEYWORDS, MAX_URLS_PER_DOMAIN, HTTP_TIMEOUT
+from config import TRUSTED_DOMAINS, KEYWORDS, MAX_URLS_PER_DOMAIN, HTTP_TIMEOUT
 
 HEADERS = {"User-Agent": "SweepHunter/1.0 (+verification crawler; public official rules only)"}
 
